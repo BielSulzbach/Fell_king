@@ -1,0 +1,44 @@
+
+.cabeçalho{
+    background-color: black;
+    display: grid;
+    margin-top: 1px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 0.5fr);
+}
+.home{
+    align-items: center;
+    display: flex;
+    gap: 250px;
+    grid-column: 2/12;
+    grid-row: 1;
+}
+.Logo{
+    width: 250px;
+    height: auto;
+}
+.contatos{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+.calendario{
+    height: auto;
+    width: 20px;
+}
+.agendar{
+    background-color: yellow;
+    width: 100px;
+    display: flex;
+    height: 40px;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.linha{
+    grid-column: 1/13;
+    height: 1px;
+    background-color: white;
+    grid-row: 2;    
+}

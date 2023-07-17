@@ -1,0 +1,25 @@
+.experiencia{
+    height: 570px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(189, 183, 183);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.5px;
+    gap: 10px;
+    background-image: url("../imagem/cabelo-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%; 
+}
+.botão-trans{
+    background-color: yellow;
+    display: flex;
+    margin-top: 50px;
+    height: 40px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    border: 4px black solid;
+}

@@ -1,0 +1,36 @@
+.Unidades{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: rgba(249, 241, 241, 0.904);
+}
+.p_Unidades{
+    color: black;
+    font-size: 90px;
+    text-align: center;
+    -webkit-text-stroke-color: rgb(100, 92, 92);
+    -webkit-text-stroke-width: 1.5px;
+}
+.fotos{
+    height: 500px;
+    width: 400px;
+    border: 5px solid black;
+}
+.Fotos_unidades{
+    display: flex;
+    margin-top: 90px;
+    font-size: 32px;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.endereço{
+    text-align: end;
+    gap: 5px;
+    font-size: 22PX;
+}

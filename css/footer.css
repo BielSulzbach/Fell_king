@@ -1,0 +1,17 @@
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1px;
+    
+}
+
+.Logotipos{
+    height: 50px;
+    filter: invert(1);
+}
+.Rede__social{
+    display: flex;
+    gap: 15px;
+}

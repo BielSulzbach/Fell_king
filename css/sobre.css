@@ -1,0 +1,40 @@
+.sobre{
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5px;
+    background-image: url(../imagem/Foto_cadeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.Titulo{
+    width: 500px;
+    margin-left: 100px;
+    display: flex;
+    grid-column: 2;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+.text_titulo{
+    color: yellow;
+}
+.Novidades{
+    grid-column: 2;
+    margin-left: 100px;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    background-color: yellow;
+    width: 300px;
+    display: flex;
+    height: 70px;
+    gap: 3px;
+    justify-content: center;
+    border-radius: 15px;
+}
